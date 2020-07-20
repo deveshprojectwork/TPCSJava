@@ -15,7 +15,7 @@ static void halfDiamondStar(int N)
 	for (i = 0; i < N; i++) 
 	{ 
 		for (j = 0; j < i + 1; j++) 
-			System.out.print("*"); 
+			System.out.print("#"); 
 		System.out.print("\n"); 
 	} 
 
@@ -24,7 +24,7 @@ static void halfDiamondStar(int N)
 	for (i = 1; i < N; i++) 
 	{ 
 		for (j = i; j < N; j++) 
-			System.out.print("*"); 
+			System.out.print(""); 
 		System.out.print("\n"); 
 	} 
 } 
